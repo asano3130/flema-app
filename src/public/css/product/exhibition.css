@@ -1,0 +1,76 @@
+.exhibition-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.image-area {
+    border: 1px dashed #ccc;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.image-upload {
+    border: 1px solid red;
+    color: red;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.image-upload input {
+    display: none;
+}
+
+.category-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.category-btn input {
+    display: none;
+}
+
+.category-btn span {
+    border: 1px solid red;
+    color: red;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.category-btn input:checked+span {
+    background: red;
+    color: white;
+}
+
+.condition-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 120px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: #ff5c5c;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}

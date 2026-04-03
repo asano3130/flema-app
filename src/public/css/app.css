@@ -1,0 +1,80 @@
+/* ===== 共通 ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== header ===== */
+
+.header {
+    background: #000;
+    padding: 15px 40px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ロゴ */
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* ===== 検索 ===== */
+
+.search-form {
+    width: 400px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* ===== ナビ ===== */
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sell-btn {
+    background: white;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* ===== main ===== */
+
+.main {
+    background: #f5f5f5;
+    min-height: 100vh;
+    padding: 40px;
+}

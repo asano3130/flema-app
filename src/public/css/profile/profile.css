@@ -1,0 +1,71 @@
+.profile-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-default {
+    width: 120px;
+    height: 120px;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.edit-btn {
+    margin-left: auto;
+    border: 1px solid #ff6b6b;
+    color: #ff6b6b;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.tab-menu {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-menu span {
+    cursor: pointer;
+}
+
+.tab-menu .active {
+    color: red;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.product-card p {
+    margin-top: 5px;
+}

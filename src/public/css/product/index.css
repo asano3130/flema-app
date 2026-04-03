@@ -1,0 +1,47 @@
+.item-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tab-menu {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.tab-menu a {
+    text-decoration: none;
+    color: #555;
+}
+
+.tab-menu .active {
+    color: red;
+    font-weight: bold;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.image-box {
+    position: relative;
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.sold {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
