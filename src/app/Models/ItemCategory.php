@@ -18,4 +18,6 @@ Schema::create('category_item', function (Blueprint $table) {
     $table->foreignId('item_id')->constrained()->cascadeOnDelete();
 
     $table->foreignId('category_id')->constrained()->cascadeOnDelete();
+
+    $table->primary(['item_id', 'category_id']);
 });
