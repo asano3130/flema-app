@@ -15,6 +15,13 @@ class CreateItemsTable extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->string('name');
+            $table->string('image')->nullable();
+            $table->integer('price');
+            $table->string('brand')->nullable();
+            $table->text('description');
+            $table->string('condition');
             $table->timestamps();
         });
     }

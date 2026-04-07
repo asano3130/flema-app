@@ -39,8 +39,6 @@ class ItemController extends Controller
 
         $products = $query->get();
 
-        $items = Item::all();
-
         return view('product.index', compact('products'));
     }
 
@@ -60,7 +58,7 @@ class ItemController extends Controller
 
         $categories = Category::all();
 
-        return view('exhibition', compact('categories'));
+        return view('products.exhibition', compact('categories'));
     }
 
 
