@@ -58,7 +58,7 @@ class ItemController extends Controller
 
         $categories = Category::all();
 
-        return view('products.exhibition', compact('categories'));
+        return view('product.exhibition', compact('categories'));
     }
 
 

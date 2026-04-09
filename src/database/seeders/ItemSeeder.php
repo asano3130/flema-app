@@ -99,7 +99,7 @@ class ItemSeeder extends Seeder
 
         foreach ($items as $item) {
             Item::create([
-                'user_id' => 1, // 仮ユーザー
+                'user_id' => 1,
                 'name' => $item['name'],
                 'image' => $item['image'],
                 'price' => $item['price'],

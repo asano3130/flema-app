@@ -16,28 +16,9 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
 
-        $categories = [
-            'ファッション',
-            '家電',
-            'インテリア',
-            'レディース',
-            'メンズ',
-            'コスメ',
-            '本',
-            'ゲーム',
-            'スポーツ',
-            'キッチン',
-            'ハンドメイド',
-            'アクセサリー',
-            'おもちゃ',
-            'ベビー・キッズ'
-        ];
 
-        foreach ($categories as $category) {
-            Category::create([
-                'name' => $category
-            ]);
-        }
+
+        $this->call(UsersTableSeeder::class);
 
         $this->call(CategoriesTableSeeder::class);
 
